@@ -10,7 +10,7 @@ if (fs.existsSync('config.env')) {
 const API = "https://api-aswin-sparky.koyeb.app";
 const ALIVE = process.env.ALIVE || "I am Alive";
 const HANDLERS = process.env.HANDLER || "^";
-const SESSION_ID = process.env.SESSION_ID || "";
+const SESSION_ID = process.env.SESSION_ID || "4b4a3f55889f384aeeed8b65cacb344e";
 const SUDO = process.env.SUDO || '917012984396';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
@@ -22,7 +22,7 @@ const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.
 const URL = process.env.URL || "https://www.instagram.com/absolutely_sparky";
 const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
-const WORK_TYPE = process.env.WORK_TYPE || 'public';
+const WORK_TYPE = process.env.WORK_TYPE || 'private';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
 const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
